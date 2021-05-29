@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LayoutApp /> should save a snapshot of the component 1`] = `
+<div
+  className="bg-white"
+>
+  <div>
+    <p>
+      menu
+    </p>
+  </div>
+  <div
+    className="h-full min-h-88"
+  >
+    <p>
+      Children content
+    </p>
+  </div>
+  <Footer />
+</div>
+`;

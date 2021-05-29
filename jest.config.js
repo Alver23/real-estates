@@ -1,7 +1,14 @@
-export default {
+module.exports = {
   clearMocks: true,
   collectCoverage: true,
-  collectCoverageFrom: ['<rootDir>/src/**/*.{ts,tsx}', '!<rootDir>/**/*.d.ts', '!<rootDir>/node_modules/**'],
+  collectCoverageFrom: [
+    '<rootDir>/src/**/*.{ts,tsx}',
+    '!<rootDir>/**/*.d.ts',
+    '!<rootDir>/node_modules/**',
+    '!<rootDir>/src/**/interfaces/**/*.ts',
+    '!<rootDir>/src/reportWebVitals.ts',
+    '!<rootDir>/src/index.tsx',
+  ],
   coverageDirectory: 'coverage',
   moduleNameMapper: {
     '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
