@@ -2,9 +2,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// Styles
-import './index.css';
-
 // Containers
 import App from './App';
 import reportWebVitals from './reportWebVitals';
