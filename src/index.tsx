@@ -3,8 +3,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Containers
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from '@alversoft/App';
+import reportWebVitals from '@alversoft/reportWebVitals';
+
+// Styles App
+import '@alversoft/assets/scss/app.scss';
 
 ReactDOM.render(
   <React.StrictMode>

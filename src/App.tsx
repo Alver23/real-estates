@@ -1,6 +1,6 @@
 // Dependencies
-import logo from './logo.svg';
-import './App.scss';
+import logo from '@alversoft/logo.svg';
+import '@alversoft/App.scss';
 
 function App() {
   return (

@@ -1,12 +1,8 @@
 module.exports = {
-  purge: ['./src/**/*.{ts,tsx}'],
-  darkMode: false,
+  purge: ['./src/**/*.{ts,tsx}', './public/index.html'],
+  darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {
-      minHeight: {
-        83: '83vh',
-      },
-    },
+    extend: {},
   },
   variants: {
     extend: {},
