@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Containers
-import App from '@alversoft/App';
+import App from '@alversoft/containers/app';
 import reportWebVitals from '@alversoft/reportWebVitals';
 
 // Styles App
