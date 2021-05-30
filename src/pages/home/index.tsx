@@ -2,15 +2,15 @@
 import { ReactElement } from 'react';
 
 // Components
-import LayoutApp from '@alversoft/components/layout';
+import Layout from '@alversoft/components/layout';
 
 const HomePage = (): ReactElement => {
   return (
-    <LayoutApp>
+    <Layout>
       <div>
         <p>Favorities</p>
       </div>
-    </LayoutApp>
+    </Layout>
   );
 };
 

@@ -4,15 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        primary: '#012D26',
         green: {
           100: '#E5F0EE',
           300: '#3ecfaf',
           400: '#5B6866',
           800: '#012D26',
         },
-      },
-      minHeight: {
-        88: '88vh',
       },
     },
   },
