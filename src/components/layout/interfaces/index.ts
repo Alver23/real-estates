@@ -1,8 +1,8 @@
 // Dependencies
 import { ReactNode } from 'react';
 
-interface ILayoutAppProps {
+interface ILayoutProps {
   children: ReactNode;
 }
 
-export default ILayoutAppProps;
+export default ILayoutProps;

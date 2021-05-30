@@ -4,14 +4,8 @@ exports[`<LayoutApp /> should save a snapshot of the component 1`] = `
 <div
   className="bg-white"
 >
+  <Header />
   <div>
-    <p>
-      menu
-    </p>
-  </div>
-  <div
-    className="h-full min-h-88"
-  >
     <p>
       Children content
     </p>

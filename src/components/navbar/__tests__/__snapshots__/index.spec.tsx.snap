@@ -2,12 +2,13 @@
 
 exports[`<Navbar /> should save a snapshot of the component 1`] = `
 <nav
-  className="md:top-0 z-20 w-full md:w-auto bg-green-300 md:bg-white"
+  className="md:top-0 z-20 | w-full md:w-auto | bg-green-300 md:bg-white"
 >
   <ul
-    className="flex md:flex flex-col md:flex-row md:space-x-6 text-primary p-4 md:p-0"
+    className="flex md:flex flex-col md:flex-row | md:space-x-6 text-white md:text-primary"
   >
     <li
+      className="px-4 py-2 md:p-0 | border-b md:border-0"
       key="1"
     >
       <Link
@@ -17,6 +18,7 @@ exports[`<Navbar /> should save a snapshot of the component 1`] = `
       </Link>
     </li>
     <li
+      className="px-4 py-2 md:p-0 | border-b md:border-0"
       key="2"
     >
       <Link
@@ -26,6 +28,7 @@ exports[`<Navbar /> should save a snapshot of the component 1`] = `
       </Link>
     </li>
     <li
+      className="px-4 py-2 md:p-0 | border-b md:border-0"
       key="3"
     >
       <Link
@@ -34,7 +37,9 @@ exports[`<Navbar /> should save a snapshot of the component 1`] = `
         Recursos
       </Link>
     </li>
-    <li>
+    <li
+      className="px-4 py-2 md:p-0"
+    >
       <Link
         className="flex flex-row items-center relative"
         to="/"

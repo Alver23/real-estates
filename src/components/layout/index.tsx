@@ -2,18 +2,17 @@
 import { FC, ReactElement } from 'react';
 
 // Components
+import Header from '@alversoft/components/header';
 import Footer from '@alversoft/components/footer';
 
 // Interfaces
-import ILayoutAppProps from './interfaces';
+import ILayoutProps from './interfaces';
 
-const LayoutApp: FC<ILayoutAppProps> = ({ children }: ILayoutAppProps): ReactElement => {
+const LayoutApp: FC<ILayoutProps> = ({ children }: ILayoutProps): ReactElement => {
   return (
     <div className="bg-white">
-      <div>
-        <p>menu</p>
-      </div>
-      <div className="h-full min-h-88">{children}</div>
+      <Header />
+      <div>{children}</div>
       <Footer />
     </div>
   );
