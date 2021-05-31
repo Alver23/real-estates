@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> should save a snapshot of the component 1`] = `
+<div
+  className="rounded-lg undefined"
+>
+  <p>
+    Children content
+  </p>
+</div>
+`;

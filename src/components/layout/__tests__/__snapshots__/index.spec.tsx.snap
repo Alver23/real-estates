@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<LayoutApp /> should save a snapshot of the component 1`] = `
+exports[`<Layout /> should save a snapshot of the component 1`] = `
 <div
   className="bg-white"
 >
