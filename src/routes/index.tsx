@@ -1,10 +1,11 @@
 // Dependencies
+import { ReactElement } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // Pages
 import HomePage from '@alversoft/pages/home';
 
-const AppRouter = () => {
+const AppRouter = (): ReactElement => {
   return (
     <Router>
       <Switch>

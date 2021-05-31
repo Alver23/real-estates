@@ -1,5 +1,5 @@
 // Dependencies
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { Link } from 'react-router-dom';
 import { VscMenu } from 'react-icons/vsc';
 
@@ -11,7 +11,7 @@ import NotificationBar from '@alversoft/components/notification-bar';
 import logoDesktop from '@alversoft/assets/images/logo-desktop.svg';
 import logoMobile from '@alversoft/assets/images/logo-mobile.svg';
 
-const Header = () => {
+const Header = (): ReactElement => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
     <header className="flex flex-row justify-between items-center md:px-20 w-full h-14 | border-b border-green-100">

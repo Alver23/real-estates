@@ -1,4 +1,5 @@
 // Dependencies
+import { ReactElement } from 'react';
 import { Link } from 'react-router-dom';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 
@@ -7,7 +8,7 @@ import NotificationBar from '@alversoft/components/notification-bar';
 
 import menuItems from './menu-config';
 
-const Navbar = () => {
+const Navbar = (): ReactElement => {
   return (
     <nav className="md:top-0 z-20 | w-full md:w-auto | bg-green-300 md:bg-white">
       <ul className="flex md:flex flex-col md:flex-row | md:space-x-6 text-white md:text-primary">

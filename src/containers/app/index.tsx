@@ -1,7 +1,10 @@
+// Dependencies
+import { ReactElement } from 'react';
+
 // Router
 import AppRouter from '@alversoft/routes';
 
-const App = () => {
+const App = (): ReactElement => {
   return <AppRouter />;
 };
 
