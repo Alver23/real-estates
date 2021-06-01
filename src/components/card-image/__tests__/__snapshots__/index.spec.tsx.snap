@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should save a snapshot of the component 1`] = `
+<Card>
+  <img
+    alt="fake image"
+    className="w-full border border-white | object-cover | rounded-lg"
+    src="http://localhost/img.png"
+  />
+</Card>
+`;

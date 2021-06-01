@@ -2,9 +2,9 @@
 import { shallow, ShallowWrapper } from 'enzyme';
 
 // Under test file
-import Layout from '../index';
+import Card from '../index';
 
-describe('<Layout />', () => {
+describe('<Card />', () => {
   let component: ShallowWrapper;
 
   const children = <p>Children content</p>;
@@ -13,7 +13,7 @@ describe('<Layout />', () => {
   };
 
   beforeEach(() => {
-    component = shallow(<Layout {...props} />);
+    component = shallow(<Card {...props} />);
   });
 
   it('should save a snapshot of the component', () => {

@@ -2,25 +2,25 @@
 import { shallow, ShallowWrapper } from 'enzyme';
 
 // Under test file
-import Layout from '../index';
+import CardImage from '../index';
 
-describe('<Layout />', () => {
+describe('<Footer />', () => {
   let component: ShallowWrapper;
 
-  const children = <p>Children content</p>;
   const props = {
-    children,
+    image: 'http://localhost/img.png',
+    alt: 'fake image',
   };
 
   beforeEach(() => {
-    component = shallow(<Layout {...props} />);
+    component = shallow(<CardImage {...props} />);
   });
 
   it('should save a snapshot of the component', () => {
     expect(component).toMatchSnapshot();
   });
 
-  it('should render correctly with chldren', () => {
-    expect(component.find('p').exists()).toBeTruthy();
+  it('should render correctly', () => {
+    expect(component.find('img').exists()).toBeTruthy();
   });
 });
