@@ -12,7 +12,7 @@ class RealEstatesService {
   private mapperList(response: IRealEstateApiResponse): IRealEstates {
     const { data, included } = response;
     return {
-      data: dataMapper(data),
+      estates: dataMapper(data),
       included: includedMapper(included),
     };
   }
