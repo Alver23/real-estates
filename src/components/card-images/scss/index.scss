@@ -27,10 +27,9 @@
     }
 
     .image-container-2 {
-      right: 0;
       width: 218px;
 
-      @apply z-30 absolute;
+      @apply z-30 absolute right-0;
     }
   }
 
