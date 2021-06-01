@@ -45,6 +45,7 @@
     "react/react-in-jsx-scope": 0,
     "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
     "no-use-before-define": "off",
-    "react/jsx-props-no-spreading": 0
+    "react/jsx-props-no-spreading": 0,
+    "no-shadow": "off"
   }
 }
