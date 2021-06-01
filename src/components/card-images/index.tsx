@@ -11,8 +11,9 @@ import ICardImagesProps from '@alversoft/components/card-images/interfaces';
 import './scss/index.scss';
 
 const CardImages: FC<ICardImagesProps> = ({ images }: ICardImagesProps) => {
+  const newImages = images.slice(0, 3);
   const imagesCopy = [...images];
-  const newImages = imagesCopy.splice(0, 3);
+  imagesCopy.splice(0, 2);
   let containerStyle = `card-images-container--content-${images.length}`;
   if (images.length >= 3) {
     containerStyle = 'card-images-container--content-3';

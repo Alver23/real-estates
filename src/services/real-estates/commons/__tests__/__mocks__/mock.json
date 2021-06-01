@@ -1,0 +1,71 @@
+{
+  "data": [
+    {
+      "id": "43153",
+      "attributes": {
+        "name": "Mi super foto",
+        "realEstateIds": [
+          196820
+        ]
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "195748",
+      "attributes": {
+        "slug": "apartamento-en-venta-santa-paula-195748",
+        "name": "Apartamento en venta en Santa Paula con Bbq...",
+        "description": "Venta espectacular apartamento vista exterior cuarto piso en el exclusivo sector de Santa Paula en la ciudad de Bogotá, cuenta con un área de 79 metros cuadrados, distribuidos en dos habitaciones cómodas, dos baños y cocina abierta integrada al área social, cuenta con dos amplios garajes cubiertos independientes y un deposito. El edificio tiene vigilancia las 24 horas, gimnasio, zona para niños y un excelente salón social. El apartamento se encuentra ubicado en una zona estratégica, dado que esta en sitio residencial tranquilo, pero cerca de centros comerciales, restaurantes, supermercados, iglesias, gimnasios, entre otros. Se encuentra cerca de vías principales y ciclo rutas, lo cual facilita su acceso a cualquier zona de la ciudad. Santa Paula es un barrio exclusivo y representativo del norte de la ciudad, caracterizado por ser residencial, por sus extensas zonas verdes para el deporte al aire libre, teatros, restaurantes, clubes, iglesias y centros comerciales.",
+        "code": "simi503-5280",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "neighborhood": "Santa Paula",
+        "minArea": 79.0,
+        "minPrice": 520000000,
+        "maxPrice": null,
+        "isNew": false,
+        "stratum": 5,
+        "matterport": null,
+        "galleryUrls": [
+          "https://lahaus-staging.imgix.net/uploads/real_estate_attachment/picture/2795333/apartamento_en_venta_en_santa_paula_de_79m_con_bbq_cover_7fbd2f943676dcd6d007.jpg"
+        ],
+        "administrationPrice": 459000,
+        "bathroom": [
+          2
+        ],
+        "bedroom": [
+          2
+        ],
+        "amenities": [
+          "Ascensor",
+          "Gimnasio",
+          "Juegos Infantiles",
+          "Salón Social",
+          "BBQ",
+          "Parqueadero de Visitantes",
+          "Zonas Verdes"
+        ],
+        "parkingLotsUnits": [
+          2
+        ],
+        "parkingLots": [
+          2
+        ],
+        "yearBuilt": 2016,
+        "reservationFee": null,
+        "reservationFee_measure_unit": null,
+        "builder": null,
+        "fiduciary": null,
+        "latitude": 4.6894803,
+        "longitude": -74.0456966,
+        "laHausState": "active",
+        "isPrelaunch": false,
+        "laHausCity": "Bogotá",
+        "deliveredAt": "2016-01-01T00:00:00.000-05:00",
+        "pricePerSquareMeter": 6582278,
+        "minimum_price_guaranteed": null
+      }
+    }
+  ]
+}

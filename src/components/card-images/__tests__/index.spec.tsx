@@ -24,7 +24,7 @@ describe('<CardImages />', () => {
 
   it('should render correctly', () => {
     expect(component.find('.card-images-container').children()).toHaveLength(4);
-    expect(component.find('span').text()).toBe('+ 1');
+    expect(component.find('span').text()).toBe('+ 2');
   });
 
   it('should render correctly when send two images', () => {
