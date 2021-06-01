@@ -12,6 +12,9 @@ module.exports = {
           800: '#012D26',
         },
       },
+      fontFamily: {
+        silka: ['Silka', 'Helvetica Neue', 'Arial', 'Helvetica', 'Verdana', 'sans-serif'],
+      },
     },
   },
   variants: {
