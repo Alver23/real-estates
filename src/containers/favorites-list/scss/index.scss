@@ -1,0 +1,14 @@
+.favority-container {
+  @apply flex flex-row flex-wrap justify-center mt-8 mb-12 self-start;
+
+  &--card-container {
+    @apply m-4;
+  }
+
+  &--new-item {
+    max-width: 294px;
+    height: 196px;
+
+    @apply w-full m-4;
+  }
+}

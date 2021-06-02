@@ -8,6 +8,8 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+      - name: deploy
+        run: npm run deploy
       - name: checkout
         uses: actions/checkout@v2
         with:

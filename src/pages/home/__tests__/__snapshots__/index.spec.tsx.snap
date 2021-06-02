@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> should save a snapshot of the component 1`] = `
+<LayoutApp>
+  <div
+    className="m-auto container pt-14"
+  >
+    <h1
+      className="font-semibold text-center text-primary text-2xl md:text-3xl"
+    >
+      Listas de favoritos
+    </h1>
+    <FavoritesList />
+  </div>
+</LayoutApp>
+`;

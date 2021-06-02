@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should save a snapshot of the component 1`] = `
+<header
+  className="flex flex-row justify-between items-center md:px-20 w-full h-14 | border-b border-green-100"
+>
+  <div
+    className="flex flex-row items-end"
+  >
+    <button
+      className="relative md:hidden px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      <VscMenu
+        className="text-green-400"
+        size={30}
+      />
+      <div
+        className="absolute top-0 right-2"
+      >
+        <NotificationBar />
+      </div>
+    </button>
+    <Link
+      className="block"
+      to="/"
+    >
+      <img
+        alt="La Haus"
+        className="hidden md:block text-green-800"
+        src="logo-desktop.svg"
+        title="La Haus Logo"
+      />
+      <img
+        alt="La Haus"
+        className="md:hidden text-green-800"
+        src="logo-mobile.svg"
+        title="La Haus Logo"
+      />
+    </Link>
+  </div>
+  <div
+    className="hidden md:block"
+  >
+    <Navbar />
+  </div>
+  <div
+    className="md:hidden absolute w-full top-14 z-50"
+  >
+    <Navbar />
+  </div>
+</header>
+`;

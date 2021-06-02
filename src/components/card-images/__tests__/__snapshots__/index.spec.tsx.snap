@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardImages /> should save a snapshot of the component 1`] = `
+<div
+  className="card-images-container card-images-container--content-3"
+>
+  <div
+    className="image-container-1"
+    key="1"
+  >
+    <CardImage
+      alt="fake name"
+      image="https://i.picsum.photos/id/619/500/500.jpg?hmac=NGtxAgAsQGvRr6cQUzK836TwMCx1OYBGwe1j37CXX70"
+    />
+  </div>
+  <div
+    className="image-container-2"
+    key="2"
+  >
+    <CardImage
+      alt="fake name 2"
+      image="https://i.picsum.photos/id/851/500/500.jpg?hmac=8qtjAOEbbDU4dZvNe0SQ5dAk0iv-zHze-29LZq1Amno"
+    />
+  </div>
+  <div
+    className="image-container-3"
+    key="3"
+  >
+    <CardImage
+      alt="fake name 4"
+      image="https://i.picsum.photos/id/449/600/600.jpg?hmac=PQ7w_GECRTwxZNh3wE841cH8p4kC6WTCQ4el-tcc3Xs"
+    />
+  </div>
+  <div
+    className="absolute | right-4 | z-50 | h-full | flex items-center | font-semibold | text-white text-lg"
+  >
+    <span>
+      + 
+      2
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,580 @@
+{
+  "data": [
+    {
+      "id": "43148",
+      "attributes": {
+        "name": "Mis favoritos",
+        "realEstateIds": [
+          195748,
+          196996
+        ]
+      }
+    },
+    {
+      "id": "43155",
+      "attributes": {
+        "name": "Aptos para arrendar",
+        "realEstateIds": [
+          152541,
+          196196,
+          196494,
+          195723
+        ]
+      }
+    },
+    {
+      "id": "43154",
+      "attributes": {
+        "name": "Aptos para mí tía",
+        "realEstateIds": [
+          97503,
+          197345,
+          194602
+        ]
+      }
+    },
+    {
+      "id": "43153",
+      "attributes": {
+        "name": "Mi super foto",
+        "realEstateIds": [
+          196820
+        ]
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "195748",
+      "attributes": {
+        "slug": "apartamento-en-venta-santa-paula-195748",
+        "name": "Apartamento en venta en Santa Paula con Bbq...",
+        "description": "Venta espectacular apartamento vista exterior cuarto piso en el exclusivo sector de Santa Paula en la ciudad de Bogotá, cuenta con un área de 79 metros cuadrados, distribuidos en dos habitaciones cómodas, dos baños y cocina abierta integrada al área social, cuenta con dos amplios garajes cubiertos independientes y un deposito. El edificio tiene vigilancia las 24 horas, gimnasio, zona para niños y un excelente salón social. El apartamento se encuentra ubicado en una zona estratégica, dado que esta en sitio residencial tranquilo, pero cerca de centros comerciales, restaurantes, supermercados, iglesias, gimnasios, entre otros. Se encuentra cerca de vías principales y ciclo rutas, lo cual facilita su acceso a cualquier zona de la ciudad. Santa Paula es un barrio exclusivo y representativo del norte de la ciudad, caracterizado por ser residencial, por sus extensas zonas verdes para el deporte al aire libre, teatros, restaurantes, clubes, iglesias y centros comerciales.",
+        "code": "simi503-5280",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "neighborhood": "Santa Paula",
+        "minArea": 79.0,
+        "minPrice": 520000000,
+        "maxPrice": null,
+        "isNew": false,
+        "stratum": 5,
+        "matterport": null,
+        "galleryUrls": [
+          "https://i.picsum.photos/id/619/500/500.jpg?hmac=NGtxAgAsQGvRr6cQUzK836TwMCx1OYBGwe1j37CXX70"
+        ],
+        "administrationPrice": 459000,
+        "bathroom": [
+          2
+        ],
+        "bedroom": [
+          2
+        ],
+        "amenities": [
+          "Ascensor",
+          "Gimnasio",
+          "Juegos Infantiles",
+          "Salón Social",
+          "BBQ",
+          "Parqueadero de Visitantes",
+          "Zonas Verdes"
+        ],
+        "parkingLotsUnits": [
+          2
+        ],
+        "parkingLots": [
+          2
+        ],
+        "yearBuilt": 2016,
+        "reservationFee": null,
+        "reservationFee_measure_unit": null,
+        "builder": null,
+        "fiduciary": null,
+        "latitude": 4.6894803,
+        "longitude": -74.0456966,
+        "laHausState": "active",
+        "isPrelaunch": false,
+        "laHausCity": "Bogotá",
+        "deliveredAt": "2016-01-01T00:00:00.000-05:00",
+        "pricePerSquareMeter": 6582278,
+        "minimum_price_guaranteed": null
+      }
+    },
+    {
+      "id": "196996",
+      "attributes": {
+        "slug": "venta-apartamento-puente-largo-196996",
+        "name": "Venta - Apartamento - Puente Largo",
+        "description": "En venta apartamento barrio Puente Largo con muy buena iluminación en todas sus áreas. 3 alcobas más estudio. Alcoba principal con baño. Baño para habitaciones y social. Sala-Comedor con chimenea. Cocina integral tipo americano. Zona de ropas independiente. Remodelado en pisos, clósets, cocina, baños, tubería y redes eléctricas. Un garaje. Shut de basuras. Estrato 5. Antigüedad 25 años. Cerca de colegios, parques, zonas verdes, juegos infantiles, centros comerciales, vías de acceso y transporte público.",
+        "code": "wasi-3279304",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "neighborhood": "Barrio Pasadena",
+        "minArea": 107.0,
+        "minPrice": 360000000,
+        "maxPrice": null,
+        "isNew": false,
+        "stratum": 5,
+        "matterport": null,
+        "galleryUrls": [
+          "https://i.picsum.photos/id/851/500/500.jpg?hmac=8qtjAOEbbDU4dZvNe0SQ5dAk0iv-zHze-29LZq1Amno"
+        ],
+        "administrationPrice": 300000,
+        "bathroom": [
+          2
+        ],
+        "bedroom": [
+          3
+        ],
+        "amenities": [
+          "Juegos Infantiles",
+          "Cancha de Fútbol",
+          "Cancha Múltiple",
+          "Parqueadero de Visitantes",
+          "Zonas Verdes",
+          "Cancha de Baloncesto",
+          "Shut de Basura"
+        ],
+        "parkingLotsUnits": [
+          1
+        ],
+        "parkingLots": [
+          1
+        ],
+        "yearBuilt": 1995,
+        "reservationFee": null,
+        "reservationFee_measure_unit": null,
+        "builder": null,
+        "fiduciary": null,
+        "latitude": 4.691447059766118,
+        "longitude": -74.06594038009645,
+        "laHausState": "active",
+        "isPrelaunch": false,
+        "laHausCity": "Bogotá",
+        "deliveredAt": "1995-01-01T00:00:00.000-05:00",
+        "pricePerSquareMeter": 3364485,
+        "minimum_price_guaranteed": null
+      }
+    },
+    {
+      "id": "152541",
+      "attributes": {
+        "slug": "apartamento-en-venta-en-bogota-cedro-golf-usaquen-152541",
+        "name": "Apartamento en venta en Caobos Salazar, de 48,68mtrs2",
+        "description": "Apartamento en venta en Caobos Salazar, de 48,68mtrs2, En el primer nivel, encontramos sala comedor, cocina integral, habitación que puede ser usada como estudio y baño completo. En el segundo nivel se encuentra habitación principal con closet y baño, posee 1 garaje cubierto, zona de lavandería.",
+        "code": "nja3-1046006",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "neighborhood": "Caobos Salazar",
+        "minArea": 48.68,
+        "minPrice": 220000000,
+        "maxPrice": null,
+        "isNew": false,
+        "stratum": 4,
+        "matterport": null,
+        "galleryUrls": [
+          "https://i.picsum.photos/id/449/600/600.jpg?hmac=PQ7w_GECRTwxZNh3wE841cH8p4kC6WTCQ4el-tcc3Xs"
+        ],
+        "administrationPrice": null,
+        "bathroom": [
+          2
+        ],
+        "bedroom": [
+          2
+        ],
+        "amenities": [
+          "Parqueadero de Visitantes",
+          "Zonas Verdes",
+          "Ascensor"
+        ],
+        "parkingLotsUnits": [
+          1
+        ],
+        "parkingLots": [
+          1
+        ],
+        "yearBuilt": 1983,
+        "reservationFee": null,
+        "reservationFee_measure_unit": null,
+        "builder": null,
+        "fiduciary": null,
+        "latitude": 4.7277372443369226,
+        "longitude": -74.03256460203974,
+        "laHausState": "active",
+        "isPrelaunch": false,
+        "laHausCity": "Bogotá",
+        "deliveredAt": "1983-01-01T00:00:00.000-05:00",
+        "pricePerSquareMeter": 5963675,
+        "minimum_price_guaranteed": null
+      }
+    },
+    {
+      "id": "196196",
+      "attributes": {
+        "slug": "apartamento-en-el-barrio-contador",
+        "name": "Apartamento en el Barrio Contador",
+        "description": "Apartamento ubicado en una de las mejores zonas de Bogotá, rodeado de parques, jardines y universidad. Con excelentes vías de acceso. Adicional el edificio tiene terraza BBQ, ascensor, salon social y zona infantil. El calentador es con Caldera. \n\nEl apartamento tiene cocina abierta, 2 parqueaderos en línea y cubiertos, un depósito.",
+        "code": "wasi-3269620",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "neighborhood": "Contador",
+        "minArea": 90.38,
+        "minPrice": 498000000,
+        "maxPrice": null,
+        "isNew": false,
+        "stratum": 5,
+        "matterport": null,
+        "galleryUrls": [
+          "https://i.picsum.photos/id/965/500/500.jpg?hmac=QlO9aaB0EHb_bqALdmPcuTRSyUW5pz1qPoMcxtfy6wI"
+        ],
+        "administrationPrice": 478300,
+        "bathroom": [
+          3
+        ],
+        "bedroom": [
+          2
+        ],
+        "amenities": [
+          "Salón Social",
+          "Juegos Infantiles",
+          "Ascensor",
+          "BBQ",
+          "Jardín",
+          "Terraza"
+        ],
+        "parkingLotsUnits": [
+          2
+        ],
+        "parkingLots": [
+          2
+        ],
+        "yearBuilt": 2015,
+        "reservationFee": null,
+        "reservationFee_measure_unit": null,
+        "builder": null,
+        "fiduciary": null,
+        "latitude": 4.7178415,
+        "longitude": -74.0432678,
+        "laHausState": "active",
+        "isPrelaunch": false,
+        "laHausCity": "Bogotá",
+        "deliveredAt": "2015-01-01T00:00:00.000-05:00",
+        "pricePerSquareMeter": 5510068,
+        "minimum_price_guaranteed": null
+      }
+    },
+    {
+      "id": "196494",
+      "attributes": {
+        "slug": "apartamento-en-venta-en-el-nogal-196494",
+        "name": "Apartamento en Venta en El Nogal ",
+        "description": "Apartamento en Venta en El Nogal \n\n\n Piso 8 (Exterior)\n 264 mts\n 4 cuartos\n 3 baños\n 2 estudio\n 1 cuarto de servicio\n 1 área de lavandería\n 1 deposito\n 2 parqueaderos (Independiente)\n Estrato 6\n\n\nApartamento en venta en El Nogal. Edificio de 40 años de construido. Muy bien ubicado en la Calle 77 con 10. Se encuentra cerca de parques, centros comerciales, restaurantes, cuenta con muy buen espacio, cuarto de escoltas, parqueadero para visitantes y vigilancia 24 horas. \n\n\n Precio de Venta: $ 1.830.000.000\n Valor admón: $ 990.000",
+        "code": "wasi-3275197",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "neighborhood": "El Nogal",
+        "minArea": 264.0,
+        "minPrice": 1830000000,
+        "maxPrice": null,
+        "isNew": false,
+        "stratum": 6,
+        "matterport": null,
+        "galleryUrls": [
+          "https://i.picsum.photos/id/921/500/500.jpg?hmac=-SjeuviO0v4DmC3seluXVcpz2aBPxIF_HlE5ACoWrV4"
+        ],
+        "administrationPrice": 990000,
+        "bathroom": [
+          3
+        ],
+        "bedroom": [
+          4
+        ],
+        "amenities": [
+          "Ascensor",
+          "Parqueadero de Visitantes",
+          "Zona Comercial"
+        ],
+        "parkingLotsUnits": [
+          2
+        ],
+        "parkingLots": [
+          2
+        ],
+        "yearBuilt": 1981,
+        "reservationFee": null,
+        "reservationFee_measure_unit": null,
+        "builder": null,
+        "fiduciary": null,
+        "latitude": 4.6611912,
+        "longitude": -74.0550009,
+        "laHausState": "active",
+        "isPrelaunch": false,
+        "laHausCity": "Bogotá",
+        "deliveredAt": "1981-01-01T00:00:00.000-05:00",
+        "pricePerSquareMeter": 6931818,
+        "minimum_price_guaranteed": null
+      }
+    },
+    {
+      "id": "195723",
+      "attributes": {
+        "slug": "apartamento-en-venta-la-estancia",
+        "name": "Apartamento en venta en La Estancia de 2 alcoba",
+        "description": "5224 Apartamento en venta La Estancia, cerca de El Perdomo y Madelena. Con una ubicación privilegiada al sur occidente de Bogotá, este apartamento te brinda la posibilidad de tener acceso a transporte público y movilidad favorable puesto que se encuentra a poca distancia del Portal Sur de Transmilenio. El apartamento cuenta con posibilidad de tener una tercera habitación, sus acabados son muy agradables, con espacios generosos y bien iluminados naturalmente. Cuenta con garaje comunal y generalmente con disponibilidad, la seguridad del conjunto está apoyada también con CCTV en cada piso de los edificios del conjunto y buenas zonas comunes.",
+        "code": "simi503-5224",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "neighborhood": "La Estancia",
+        "minArea": 47.0,
+        "minPrice": 143000000,
+        "maxPrice": null,
+        "isNew": false,
+        "stratum": 2,
+        "matterport": null,
+        "galleryUrls": [
+          "https://i.picsum.photos/id/26/500/500.jpg?hmac=_lPBd4TADb1Io3TPZ1ndt9L7ZL6hwH5hCPdKNR3YaSk"
+        ],
+        "administrationPrice": 71500,
+        "bathroom": [
+          1
+        ],
+        "bedroom": [
+          2
+        ],
+        "amenities": [
+          "Ascensor",
+          "Cancha de Fútbol",
+          "Cancha Múltiple",
+          "Gimnasio",
+          "Juegos Infantiles",
+          "Salón Social"
+        ],
+        "parkingLotsUnits": [
+          0
+        ],
+        "parkingLots": [
+          0
+        ],
+        "yearBuilt": 2016,
+        "reservationFee": null,
+        "reservationFee_measure_unit": null,
+        "builder": null,
+        "fiduciary": null,
+        "latitude": 4.5957358,
+        "longitude": -74.1721056,
+        "laHausState": "inactive",
+        "isPrelaunch": false,
+        "laHausCity": "Bogotá",
+        "deliveredAt": "2016-01-01T00:00:00.000-05:00",
+        "pricePerSquareMeter": 3042553,
+        "minimum_price_guaranteed": null
+      }
+    },
+    {
+      "id": "97503",
+      "attributes": {
+        "slug": "apartamento-en-venta-en-bogota-nueva-autopista-usaquen-97503",
+        "name": "Apartamento  En Bogota Nueva Autopista-Usaquén, Con 3 habitaciones-92,51mt2",
+        "description": "Apartamento, Duplex, en el Barrio Nueva Autopista. Muy cerca del parque Nueva Autopista. Consta de 3 habitaciones, 3 baños, 2. piso, sala comedor, cocina integral, estufa a gas, pisos de porcelanato, citofono, terraza, parqueadero cubierto, área privada 92.51 M2, uso residencial, estrato 5.",
+        "code": "nja3-1031001",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "neighborhood": "Contador",
+        "minArea": 92.51,
+        "minPrice": 340000000,
+        "maxPrice": null,
+        "isNew": false,
+        "stratum": 5,
+        "matterport": null,
+        "galleryUrls": [
+          "https://i.picsum.photos/id/815/500/500.jpg?hmac=BhCNZwcHavnIMD9ZPrT2NgyiHvGA0IOB-epivI7xq68"
+        ],
+        "administrationPrice": null,
+        "bathroom": [
+          3
+        ],
+        "bedroom": [
+          3
+        ],
+        "amenities": [
+          "Terraza",
+          "Parqueadero de Visitantes",
+          "Zonas Verdes"
+        ],
+        "parkingLotsUnits": [
+          1
+        ],
+        "parkingLots": [
+          1
+        ],
+        "yearBuilt": 1984,
+        "reservationFee": null,
+        "reservationFee_measure_unit": null,
+        "builder": null,
+        "fiduciary": null,
+        "latitude": 4.719,
+        "longitude": -74.048,
+        "laHausState": "active",
+        "isPrelaunch": false,
+        "laHausCity": "Bogotá",
+        "deliveredAt": "1984-01-01T00:00:00.000-05:00",
+        "pricePerSquareMeter": 3675278,
+        "minimum_price_guaranteed": null
+      }
+    },
+    {
+      "id": "197345",
+      "attributes": {
+        "slug": "apartamento-en-venta-antiguo-hipodromo-de-techo-ii-etapa",
+        "name": "Apartamento en Venta ANTIGUO HIPODROMO DE TECHO II ETAPA",
+        "description": "Espectacular apartamento en Techo cuenta con sala comedor, 3 habitaciones con closet, estudio, un baño social, baño privado en la habitación principal, zona de lavandería, balcón con vista al interior y garaje propio. Los pisos son en baldosa, iluminación natural.",
+        "code": "simi645-1037",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "neighborhood": "Valladolid",
+        "minArea": 59.0,
+        "minPrice": 207600000,
+        "maxPrice": null,
+        "isNew": false,
+        "stratum": 3,
+        "matterport": null,
+        "galleryUrls": [
+          "https://i.picsum.photos/id/177/500/500.jpg?hmac=EqsG2RX8ZIacNHGbOMdLLGnEHmtD-pckqiRA7dixh_g"
+        ],
+        "administrationPrice": null,
+        "bathroom": [
+          2
+        ],
+        "bedroom": [
+          3
+        ],
+        "amenities": [
+          "Juegos Infantiles",
+          "Salón Social",
+          "Zonas Verdes"
+        ],
+        "parkingLotsUnits": [
+          1
+        ],
+        "parkingLots": [
+          1
+        ],
+        "yearBuilt": 2010,
+        "reservationFee": null,
+        "reservationFee_measure_unit": null,
+        "builder": null,
+        "fiduciary": null,
+        "latitude": 4.6386512,
+        "longitude": -74.1529326,
+        "laHausState": "active",
+        "isPrelaunch": false,
+        "laHausCity": "Bogotá",
+        "deliveredAt": "2010-01-01T00:00:00.000-05:00",
+        "pricePerSquareMeter": 3518644,
+        "minimum_price_guaranteed": null
+      }
+    },
+    {
+      "id": "194602",
+      "attributes": {
+        "slug": "vende-apartamento-en-palermo-bogota",
+        "name": "Apartamento en venta en Palermo de 2 habitaciones",
+        "description": "Apartamento de 66 mt2 de area construida en excelente ubicacion , primer piso alto, iluminado, cuenta con dos alcobas , dos baños, cocina abierta y patio interior con domo corredizo.\n\nEl apartamento esta remodelado con pisos es madera laminada.\n\nEdificio con vigilancia 24 horas, ubicado en zona estrategica, frente a parque .",
+        "code": "wasi-3238745",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "neighborhood": "Palermo",
+        "minArea": 66.0,
+        "minPrice": 350000000,
+        "maxPrice": null,
+        "isNew": false,
+        "stratum": 4,
+        "matterport": null,
+        "galleryUrls": [
+          "https://i.picsum.photos/id/814/500/500.jpg?hmac=Y0TLRTLVUMFoH18ItEN3gb1VsY63hjYNXqI1L_HCkkM"
+        ],
+        "administrationPrice": 327000,
+        "bathroom": [
+          2
+        ],
+        "bedroom": [
+          2
+        ],
+        "amenities": [
+          "Parqueadero de Visitantes",
+          "Ascensor",
+          "Patio"
+        ],
+        "parkingLotsUnits": [
+          0
+        ],
+        "parkingLots": [
+          0
+        ],
+        "yearBuilt": 1991,
+        "reservationFee": null,
+        "reservationFee_measure_unit": null,
+        "builder": null,
+        "fiduciary": null,
+        "latitude": 4.6339383373263505,
+        "longitude": -74.07044649124147,
+        "laHausState": "active",
+        "isPrelaunch": false,
+        "laHausCity": "Bogotá",
+        "deliveredAt": "1991-01-01T00:00:00.000-05:00",
+        "pricePerSquareMeter": 5303030,
+        "minimum_price_guaranteed": null
+      }
+    },
+    {
+      "id": "196820",
+      "attributes": {
+        "slug": "vendo-lindo-apto-en-veraguas-196820",
+        "name": "Lindo En Veraguas, Apartamento en venta en Santa Matilde de 3 habitaciones",
+        "description": "Vendo lindo apartamento en veraguas área: 84 mtrs2 vista: interior claro habitaciones: 3 baños: 2 (el de la alcoba principal con tina) sala comedor espacio para estudio cocina integral semi abierta zona de lavandería garaje independiente no paga administración antigüedad: 8 años precio de venta 345 millones.",
+        "code": "wasi-3279392",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "neighborhood": "Santa Matilde",
+        "minArea": 84.0,
+        "minPrice": 345000000,
+        "maxPrice": null,
+        "isNew": false,
+        "stratum": 3,
+        "matterport": null,
+        "galleryUrls": [
+          "https://i.picsum.photos/id/915/500/500.jpg?hmac=oj11ZQiV3J_2BBAal_O9afCz3oRD9mN8StDpBbCKiiI"
+        ],
+        "administrationPrice": null,
+        "bathroom": [
+          2
+        ],
+        "bedroom": [
+          3
+        ],
+        "amenities": [
+          "Parqueadero de Visitantes"
+        ],
+        "parkingLotsUnits": [
+          1
+        ],
+        "parkingLots": [
+          1
+        ],
+        "yearBuilt": 2012,
+        "reservationFee": null,
+        "reservationFee_measure_unit": null,
+        "builder": null,
+        "fiduciary": null,
+        "latitude": 4.6051738,
+        "longitude": -74.1003705,
+        "laHausState": "active",
+        "isPrelaunch": false,
+        "laHausCity": "Bogotá",
+        "deliveredAt": "2012-01-01T00:00:00.000-05:00",
+        "pricePerSquareMeter": 4107142,
+        "minimum_price_guaranteed": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotificationBar /> should save a snapshot of the component 1`] = `
+<div
+  className="bg-green-300 w-3 h-3 rounded-full"
+/>
+`;
