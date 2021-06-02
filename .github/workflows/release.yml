@@ -47,6 +47,7 @@ jobs:
   release:
     name: Release
     needs: deploy
+    runs-on: ubuntu-latest
     steps:
       - name: generate tag and release body
         run: |
