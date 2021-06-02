@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/Alver23/real-estates/compare/v0.1.1...v1.0.0) (2021-06-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* generate version major
+
+### Features
+
+* update readme.md ([36d7920](https://github.com/Alver23/real-estates/commit/36d7920af23f08956199b098b24178ec350b6f5c))
+
 ### 0.1.1 (2021-06-02)
 
 
