@@ -1,6 +1,6 @@
 {
   "name": "real-estates",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "An application where you can see real estate with the option to buy it",
   "homepage": "https://Alver23.github.io/real-estates",
   "dependencies": {
