@@ -9,6 +9,7 @@ on:
 
 jobs:
   build:
+    name: Commit stage
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -29,7 +30,15 @@ jobs:
         envkey_AUTHOR_FIRST_NAME: "Alver Alexander"
         envkey_AUTHOR_LAST_NAME: "Grisales Ortega"
         file_name: .env
-    - run: npm ci
-    - run: npm run lint
-    - run: npm test
-    - run: npm run coveralls
+    - name: Install NPM packages
+      run: npm ci
+    - name: Run linter
+      run: npm run lint
+    - name: Run tests
+      run: npm run test
+    - name: Build project
+      run: npm run build
+    - name: Run Coveralls
+      run: npm run coveralls
+    - name: Run Sonarqube
+      run: npm run sonarqube

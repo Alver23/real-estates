@@ -18,10 +18,16 @@ jobs:
           node-version: 14.x
       - name: Install NPM packages
         run: npm ci
-      - name: Build project
-        run: npm run build
+      - name: Run linter
+        run: npm run lint
       - name: Run tests
         run: npm run test
+      - name: Build project
+        run: npm run build
+      - name: Run Coveralls
+        run: npm run coveralls
+      - name: Run Sonarqube
+        run: npm run sonarqube
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
         with:
