@@ -1,4 +1,4 @@
-name: Release
+name: CD
 
 on:
   push:
@@ -16,6 +16,14 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
+      - name: Create .env file
+        uses: SpicyPizza/create-envfile@v1
+        with:
+          envkey_SONARQUBE_HOST_URL: ${{ secrets.SONARQUBE_HOST_URL }}
+          envkey_SONARQUBE_TOKEN: ${{ secrets.SONARQUBE_TOKEN }}
+          envkey_AUTHOR_FIRST_NAME: "Alver Alexander"
+          envkey_AUTHOR_LAST_NAME: "Grisales Ortega"
+          file_name: .env
       - name: Install NPM packages
         run: npm ci
       - name: Run linter
