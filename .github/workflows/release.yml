@@ -4,19 +4,50 @@ on:
   push:
     branches: [ main ]
 
+
 jobs:
-  release:
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
+      - name: Checkout code
         uses: actions/checkout@v2
+      - name: Install Node.js
+        uses: actions/setup-node@v1
         with:
-          fetch-depth: 0 # gives standard-version access to all previous commits
-      - name: deploy
-        run: |
-          git config user.name Alver Grisales
-          git config user.email viga.23@hotmail.com
-          npm ci && npm run deploy
+          node-version: 14.x
+      - name: Install NPM packages
+        run: npm ci
+      - name: Build project
+        run: npm run build
+      - name: Run tests
+        run: npm run test
+      - name: Upload production-ready build files
+        uses: actions/upload-artifact@v2
+        with:
+          name: production-files
+          path: ./build
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: production-files
+          path: ./build
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+  release:
+    name: Release
+    needs: deploy
+    steps:
       - name: generate tag and release body
         run: |
           git config user.name Alver Grisales
