@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/Alver23/real-estates/compare/v1.0.0...v1.1.0) (2021-06-02)
+
+
+### Features
+
+* added sonarqube configuration ([da30c4c](https://github.com/Alver23/real-estates/commit/da30c4cfa5012213ff05d74f9ff1c03ef7243c7e))
+
 ## [1.0.0](https://github.com/Alver23/real-estates/compare/v0.1.1...v1.0.0) (2021-06-02)
 
 
