@@ -1,46 +1,117 @@
-# Getting Started with Create React App
+<h1 align="center">Welcome to Real Estates 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/Alver23/real-estates/blob/main/LICENSE" target="_blank">
+    <img alt="License: MIT License" src="https://img.shields.io/badge/License-MIT License-yellow.svg" />
+  </a>
+  <a href="https://coveralls.io/github/Alver23/real-estates?branch=main" target="_blank">
+    <img alt="Coveralls" src="https://coveralls.io/repos/github/Alver23/real-estates/badge.svg?branch=main" />
+  </a>
+  <a href="https://github.com/Alver23/real-estates#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/Alver23/real-estates/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://twitter.com/23Alver" target="_blank">
+    <img alt="Twitter: 23Alver" src="https://img.shields.io/twitter/follow/23Alver.svg?style=social" />
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> An application where you can see real estate with the option to buy it
 
-## Available Scripts
+### 🏠 [Homepage](https://Alver23.github.io/real-estates)
 
-In the project directory, you can run:
+### ✨ [Demo](https://alver23.github.io/real-estates/)
 
-### `npm start`
+Before you begin, ensure you have met the following requirements:
+* Install [git](https://git-scm.com/downloads)
+* Install [nodejs](https://nodejs.org/es/download/)
+* Install [nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Install
+To install real estates app, follow these steps:
+* Clone the source locally:
+  ```bash
+  $ git clone https://github.com/Alver23/real-estates.git <project-name>
+  $ cd <project-name>
+  ``` 
+* Installing dependencies:
+  ```bash
+  $ npm i
+  ```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Usage
 
-### `npm test`
+* Enter the project folder:
+  ```bash
+  $ cd <project-name>
+  ```
+  
+* Mode: **development**
+  ```bash
+  $ npm run start
+  ```
+  
+* Mode: **production**
+  ```bash
+  $ npm run build
+  $ npm install -g serve
+  $ serve -s build -l 4000
+  ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Running the tests ⚙️
 
-### `npm run build`
+### Running unit tests 🔩
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The unit test in the app is configuring only to test the logic, not e2e, to generate a test file, only is necessary to add this in `<project-name>/src/**/__tests__/` for other withe the format `<name>.spec.{ts, tsx}`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+$ npm test
+```
+**Note:** If you want exclude or modify test configuration, apply this change in `jest.config.js`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running linter 🖋
 
-### `npm run eject`
+The project work with **ESlint** configuration using **Prettier** as rules template.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+$ npm run lint && npm run stylelint
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Built with 🛠️
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[//]: # (Mention the development libraries and frameworks you used to create your project)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* [Create react app](https://create-react-app.dev/)
+* [Testing React: Enzyme](https://enzymejs.github.io/enzyme/)
+* [Testing: Jest](https://jestjs.io/)
+* [Formatter: Prettier](https://prettier.io/docs/en/index.html)
+* [Linter: ESLint](https://eslint.org/)
+* [Linter: Stylelint](https://stylelint.io/)
+* [Tailwindcss](https://tailwindcss.com/)
+* [Css with superpwers: Sass](https://sass-lang.com/)
+* [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+* [Standard version](https://github.com/conventional-changelog/standard-version)
+* [Git hooks: husky](https://github.com/typicode/husky)
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Alver Grisales Ortega**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Website: https://github.com/Alver23
+* Twitter: [@23Alver](https://twitter.com/23Alver)
+* Github: [@Alver23](https://github.com/Alver23)
+* LinkedIn: [@alvergrisales](https://linkedin.com/in/alvergrisales)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2021 [Alver Grisales Ortega](https://github.com/Alver23).<br />
+This project is [MIT License](https://github.com/Alver23/real-estates/blob/main/LICENSE) licensed.
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
