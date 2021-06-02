@@ -1,3 +1,6 @@
+// Commons
+import { STATUS_TYPES } from '@alversoft/commons/app';
+
 // Test file
 import { initialState, CONSTANTS, fetchReducer } from '../index';
 
@@ -6,8 +9,8 @@ describe('Fetch reducer', () => {
     [
       {
         type: CONSTANTS.SET_LOADING,
-        payload: true,
-        property: 'loading',
+        payload: STATUS_TYPES.SUCCEEDED,
+        property: 'status',
       },
     ],
     [
@@ -26,14 +29,20 @@ describe('Fetch reducer', () => {
     ],
   ];
 
-  it.each(cases)('should change the state of %s', ({ type, payload, property }: any) => {
+  it.each(cases)('should change the state of %s', ({ type, payload, property }) => {
     const state = fetchReducer(initialState as any, { type, payload });
     expect(state[property]).toEqual(payload);
   });
 
   it('should return default state', () => {
     const type: any = 'fake state';
-    const state = fetchReducer(initialState as any, { type, payload: null });
+    const state = fetchReducer(initialState as any, { type });
+    expect(state).toEqual(initialState);
+  });
+
+  it('should reset state', () => {
+    const type = CONSTANTS.SET_RESET;
+    const state = fetchReducer(initialState as any, { type });
     expect(state).toEqual(initialState);
   });
 });

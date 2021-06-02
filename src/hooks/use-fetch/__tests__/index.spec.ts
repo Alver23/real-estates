@@ -9,7 +9,6 @@ describe('Fetch Hooks', () => {
   const reducerMock: [any, jest.Mock] = [null, jest.fn()];
   beforeEach(() => {
     jest.spyOn(React, 'useRef').mockImplementation(() => ({ current: true }));
-
     jest.spyOn(React, 'useReducer').mockReturnValue(reducerMock);
   });
 
@@ -19,7 +18,6 @@ describe('Fetch Hooks', () => {
 
   it('should call to callback when the component is not mounted', () => {
     jest.spyOn(React, 'useRef').mockReturnValue({ current: false });
-
     const mockResponse = [{ key: false }];
     const mockCallback: any = jest.fn().mockResolvedValue(mockResponse);
     renderHook(() => useFetch(mockCallback, []));
@@ -39,6 +37,14 @@ describe('Fetch Hooks', () => {
     jest.spyOn(React, 'useRef').mockReturnValue({ current: true });
     const mockCallback: any = jest.fn().mockRejectedValue(error);
     renderHook(() => useFetch(mockCallback, []));
+    expect(reducerMock[1]).toHaveBeenCalled();
+  });
+
+  it('should return of callback for reset state', () => {
+    const mockResponse = [{ key: false }];
+    const mockCallback: any = jest.fn().mockResolvedValue(mockResponse);
+    const { result } = renderHook(() => useFetch(mockCallback, []));
+    result.current[2]();
     expect(reducerMock[1]).toHaveBeenCalled();
   });
 });

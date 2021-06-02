@@ -7,7 +7,7 @@ import HomePage from '@alversoft/pages/home';
 
 const AppRouter = (): ReactElement => {
   return (
-    <Router>
+    <Router basename="/real-estates">
       <Switch>
         <Route path="/">
           <HomePage />

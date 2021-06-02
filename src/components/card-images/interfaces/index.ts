@@ -1,7 +1,7 @@
 // Interfaces
 import ICardImageProps from '@alversoft/components/card-image/interfaces';
 
-interface ICardImage extends ICardImageProps {
+export interface ICardImage extends ICardImageProps {
   id: number;
 }
 

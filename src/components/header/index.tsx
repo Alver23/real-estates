@@ -30,7 +30,7 @@ const Header = (): ReactElement => {
       <div className="hidden md:block">
         <Navbar />
       </div>
-      <div className="md:hidden absolute w-full top-14">{isOpen && <Navbar />}</div>
+      <div className="md:hidden absolute w-full top-14 z-50">{isOpen && <Navbar />}</div>
     </header>
   );
 };
