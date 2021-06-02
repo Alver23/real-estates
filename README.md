@@ -20,7 +20,7 @@
 
 > An application where you can see real estate with the option to buy it
 
-### 🏠 [Homepage](https://Alver23.github.io/real-estates)
+### 🏠 [Homepage](https://github.com/Alver23/real-estates#readme)
 
 ### ✨ [Demo](https://alver23.github.io/real-estates/)
 
@@ -77,6 +77,23 @@ The project work with **ESlint** configuration using **Prettier** as rules templ
 
 ```bash
 $ npm run lint && npm run stylelint
+```
+
+### Running Sonarqube
+
+This tool allow run analysis of the project code and check if developer apply best practices and haven't any vulnerabilities in this using **Typescript**.
+
+Before running this process it is necessary to configure the following environment variables in <rootDir>/.env file:
+
+```
+SONARQUBE_HOST_URL=<Sonarqube URL>
+SONARQUBE_TOKEN=<Sonarqube Token>
+```
+
+Run analysis
+
+```bash
+$ npm run sonarqube
 ```
 
 ## Built with 🛠️

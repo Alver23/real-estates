@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/services/real-estates/__tests__/index.spec.ts">
+        <testCase name="RealEstatesService getList method should get the data successfully" duration="2"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/components/card/__tests__/index.spec.tsx">
+        <testCase name="&lt;Card /&gt; should save a snapshot of the component" duration="7"/>
+        <testCase name="&lt;Card /&gt; should render correctly with chldren" duration="3"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/components/card-images/__tests__/index.spec.tsx">
+        <testCase name="&lt;CardImages /&gt; should save a snapshot of the component" duration="44"/>
+        <testCase name="&lt;CardImages /&gt; should render correctly" duration="36"/>
+        <testCase name="&lt;CardImages /&gt; should render correctly when send two images" duration="3"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/components/footer/__tests__/index.spec.tsx">
+        <testCase name="&lt;Footer /&gt; should save a snapshot of the component" duration="8"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/hooks/use-fetch/reducer/__tests__/index.spec.ts">
+        <testCase name="Fetch reducer should change the state of { type: &apos;SET_LOADING&apos;, payload: &apos;succeeded&apos;, property: &apos;status&apos; }" duration="3"/>
+        <testCase name="Fetch reducer should change the state of { type: &apos;SET_DATA&apos;, payload: [], property: &apos;data&apos; }" duration="0"/>
+        <testCase name="Fetch reducer should change the state of { type: &apos;SET_ERROR&apos;, payload: {}, property: &apos;errors&apos; }" duration="0"/>
+        <testCase name="Fetch reducer should return default state" duration="1"/>
+        <testCase name="Fetch reducer should reset state" duration="0"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/components/card-image/__tests__/index.spec.tsx">
+        <testCase name="&lt;Footer /&gt; should save a snapshot of the component" duration="7"/>
+        <testCase name="&lt;Footer /&gt; should render correctly" duration="4"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/components/layout/__tests__/index.spec.tsx">
+        <testCase name="&lt;Layout /&gt; should save a snapshot of the component" duration="7"/>
+        <testCase name="&lt;Layout /&gt; should render correctly with chldren" duration="3"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/containers/favorites-list/components/favority-new-list/__tests__/index.spec.tsx">
+        <testCase name="&lt;FavorityNewList /&gt; should save a snapshot of the component" duration="36"/>
+        <testCase name="&lt;FavorityNewList /&gt; should render correctly" duration="9"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/hooks/use-fetch/__tests__/index.spec.ts">
+        <testCase name="Fetch Hooks should call to callback when the component is not mounted" duration="126"/>
+        <testCase name="Fetch Hooks should call to callback and return data, fetch" duration="21"/>
+        <testCase name="Fetch Hooks should reject promise" duration="3"/>
+        <testCase name="Fetch Hooks should return of callback for reset state" duration="5"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/components/header/__tests__/index.spec.tsx">
+        <testCase name="&lt;Header /&gt; should save a snapshot of the component" duration="38"/>
+        <testCase name="&lt;Header /&gt; should call the click event of the hamburger menu" duration="6"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/pages/home/__tests__/index.spec.tsx">
+        <testCase name="&lt;HomePage /&gt; should save a snapshot of the component" duration="16"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/components/notification-bar/__tests__/index.spec.tsx">
+        <testCase name="&lt;NotificationBar /&gt; should save a snapshot of the component" duration="6"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/services/real-estates/commons/__tests__/index.spec.ts">
+        <testCase name="RealEstateService Commons dataMapper function should return the data successfully" duration="1"/>
+        <testCase name="RealEstateService Commons includedMapper function should return the data successfully" duration="1"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/containers/favorites-list/components/favority-detail/__tests__/index.spec.tsx">
+        <testCase name="&lt;FavorityDetail /&gt; should save a snapshot of the component" duration="5"/>
+        <testCase name="&lt;FavorityDetail /&gt; should render correctly" duration="4"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/components/navbar/__tests__/index.spec.tsx">
+        <testCase name="&lt;Navbar /&gt; should save a snapshot of the component" duration="4"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/containers/favorites-list/__tests__/index.spec.tsx">
+        <testCase name="&lt;FavoritesList /&gt; should save a snapshot of the component" duration="3"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/containers/favorites-list/hooks/__tests__/index.spec.ts">
+        <testCase name="useGetRealEstates hooks should get the real estates" duration="17"/>
+    </file>
+    <file path="/Users/alexander.grisales/Projects/Personal/react/real-estates/src/containers/app/__tests__/index.spec.tsx">
+        <testCase name="&lt;App /&gt; should save a snapshot of the component" duration="5"/>
+    </file>
+</testExecutions>

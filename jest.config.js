@@ -30,9 +30,8 @@ module.exports = {
   setupFilesAfterEnv: ['<rootDir>/config/jest/setup.ts'],
   snapshotSerializers: ['enzyme-to-json/serializer'],
   testMatch: ['**/__tests__/**/*.ts', '**/__tests__/**/*.tsx'],
-
-  // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
   testPathIgnorePatterns: ['/node_modules/'],
+  testResultsProcessor: 'jest-sonar-reporter',
   transform: {
     '^.+\\.(js|jsx|ts|tsx)$': '<rootDir>/node_modules/babel-jest',
     '^.+\\.css$': '<rootDir>/config/jest/css-transform.js',

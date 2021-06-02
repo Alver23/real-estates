@@ -3,10 +3,10 @@
 exports[`<HomePage /> should save a snapshot of the component 1`] = `
 <LayoutApp>
   <div
-    className="m-auto container pt-14"
+    className="m-auto container pt-8 md:pt-14"
   >
     <h1
-      className="font-semibold text-center text-primary text-2xl md:text-3xl"
+      className="font-semibold text-center text-primary text-2xl md:text-3xl mb-4 md:mb-0"
     >
       Listas de favoritos
     </h1>
