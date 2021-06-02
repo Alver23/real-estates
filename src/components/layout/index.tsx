@@ -8,11 +8,14 @@ import Footer from '@alversoft/components/footer';
 // Interfaces
 import ILayoutProps from './interfaces';
 
+// Styles
+import './scss/index.scss';
+
 const LayoutApp: FC<ILayoutProps> = ({ children }: ILayoutProps): ReactElement => {
   return (
-    <div className="bg-white">
+    <div className="layout-container bg-white">
       <Header />
-      <div>{children}</div>
+      <main>{children}</main>
       <Footer />
     </div>
   );

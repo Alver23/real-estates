@@ -2,14 +2,14 @@
 
 exports[`<Layout /> should save a snapshot of the component 1`] = `
 <div
-  className="bg-white"
+  className="layout-container bg-white"
 >
   <Header />
-  <div>
+  <main>
     <p>
       Children content
     </p>
-  </div>
+  </main>
   <Footer />
 </div>
 `;

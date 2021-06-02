@@ -11,6 +11,13 @@ module.exports = {
           400: '#5B6866',
           800: '#012D26',
         },
+        blue: {
+          100: '#EBEDFF',
+          400: '#3948FF',
+        },
+      },
+      fontFamily: {
+        silka: ['Silka', 'Helvetica Neue', 'Arial', 'Helvetica', 'Verdana', 'sans-serif'],
       },
     },
   },

@@ -1,1 +1,6 @@
-@import "./tailwind.scss";
+@import './tailwind.scss';
+@import './font.scss';
+
+body {
+  @apply font-silka;
+}

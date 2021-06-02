@@ -12,6 +12,6 @@ export interface IRealEstateIncluded {
 }
 
 export interface IRealEstates {
-  data: IRealEstateData[];
+  estates: IRealEstateData[];
   included: IRealEstateIncluded;
 }
