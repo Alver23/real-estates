@@ -1,6 +1,5 @@
 <h1 align="center">Welcome to Real Estates 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/Alver23/real-estates/blob/main/LICENSE" target="_blank">
     <img alt="License: MIT License" src="https://img.shields.io/badge/License-MIT License-yellow.svg" />
   </a>
